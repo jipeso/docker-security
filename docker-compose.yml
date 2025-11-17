@@ -1,7 +1,6 @@
 services:
   app:
     image: ${DOCKER_USERNAME}/express-app:latest
-    build: .
     ports:
       - "8080:8080"
   watchtower:
